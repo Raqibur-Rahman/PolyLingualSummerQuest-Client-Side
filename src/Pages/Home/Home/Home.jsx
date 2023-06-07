@@ -1,11 +1,12 @@
 import Banner from "../Banner";
+import ReviewSwipper from "./ReviewSwiper/ReviewSwipper";
 
 
 const Home = () => {
     return (
-        <div >
-            <h3>This is home</h3>
+        <div>
             <Banner></Banner>
+            <ReviewSwipper></ReviewSwipper>
         </div>
     );
 };
