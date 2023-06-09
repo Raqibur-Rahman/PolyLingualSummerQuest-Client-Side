@@ -1,0 +1,181 @@
+[
+
+    {
+        "id": 1,
+        "image": "https://cdn-icons-png.flaticon.com/512/219/219964.png?w=740&t=st=1686277316~exp=1686277916~hmac=73bfb28b8a70af470f75426a0f7d91dc1dc8d2cdb44cc96bebcd9b1414c869e2",
+        "name": "Khalid Ahmed",
+        "email": "khalid.ahmed@example.com",
+        "numClasses": 12,
+        "classNames": [
+            "Arabic Grammar",
+            "Arabic Conversation",
+            "Arabic Literature"
+        ],
+        "gender": "Male",
+        "numberOfStudents": 575
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/wcNG3df/img2.png",
+        "name": "Masud Khan",
+        "email": "masud.khan@example.com",
+        "numClasses": 8,
+        "classNames": [
+            "Urdu Language",
+            "Urdu Poetry",
+            "Urdu Calligraphy"
+        ],
+        "gender": "Male",
+        "numberOfStudents": 475
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/2jTCRYR/img11.png",
+        "name": "Rajiv Sharma",
+        "email": "rajiv.sharma@example.com",
+        "numClasses": 6,
+        "classNames": [
+            "Hindi for Beginners",
+            "Intermediate Hindi",
+            "Hindi Literature"
+        ],
+        "gender": "Male",
+        "numberOfStudents": 375
+
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/4KtX8Z0/img10.png",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "numClasses": 10,
+        "classNames": [
+            "English Grammar",
+            "Conversation Skills",
+            "Writing Workshop"
+        ],
+        "gender": "Male",
+        "numberOfStudents": 475
+
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/z5cX064/img9.png",
+        "name": "Michael Johnson",
+        "email": "michael.johnson@example.com",
+        "numClasses": 8,
+        "classNames": [
+            "Beginner Bangla",
+            "Intermediate Bangla",
+            "Bangla Literature"
+        ],
+        "gender": "Male",
+        "numberOfStudents": 571
+
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/6n39g1D/img7.png",
+        "name": "Alexander Müller",
+        "email": "alexander.muller@example.com",
+        "numClasses": 6,
+        "classNames": [
+            "German for Beginners",
+            "Advanced German",
+            "German Culture"
+        ],
+        "gender": "Male",
+        "numberOfStudents": 175
+
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/M8fgqVr/img6.png",
+        "name": "Luis Martinez",
+        "email": "luis.martinez@example.com",
+        "numClasses": 7,
+        "classNames": [
+            "Spanish for Beginners",
+            "Intermediate Spanish",
+            "Spanish Culture"
+        ],
+        "gender": "Male",
+        "numberOfStudents": 95
+
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/bKxzxFJ/img5.png",
+        "name": "Hans Becker",
+        "email": "hans.becker@example.com",
+        "numClasses": 6,
+        "classNames": [
+            "German Grammar",
+            "German Conversation",
+            "German Literature"
+        ],
+        "gender": "Male",
+        "numberOfStudents": 85
+
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/ZcDp0fB/img4.png",
+        "name": "Markus Schmidt",
+        "email": "markus.schmidt@example.com",
+        "numClasses": 5,
+        "classNames": [
+            "Beginner German",
+            "Advanced German",
+            "German Culture"
+        ],
+        "gender": "Male",
+        "numberOfStudents": 115
+
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co/xSHF2WB/img3.png",
+        "name": "Ahmed Khan",
+        "email": "ahmed.khan@example.com",
+        "numClasses": 5,
+        "classNames": [
+            "Urdu Conversation",
+            "Urdu Poetry Writing",
+            "Urdu Prose"
+        ],
+        "gender": "Male",
+        "numberOfStudents": 356
+
+    },
+    {
+        "id": 11,
+        "image": "https://i.ibb.co/H78ptLq/img1.png",
+        "name": "Ariful Rahman",
+        "email": "arifur.rahman@example.com",
+        "numClasses": 7,
+        "classNames": [
+            "Arabic Calligraphy",
+            "Arabic Literature",
+            "Advanced Arabic"
+        ],
+        "gender": "Male",
+        "numberOfStudents": 775
+
+    },
+    {
+        "id": 12,
+        "image": "https://i.ibb.co/M8fgqVr/img6.png",
+        "name": "Kamal Haque",
+        "email": "kamal.haque@example.com",
+        "numClasses": 9,
+        "classNames": [
+            "Bangla Grammar",
+            "Bangla Conversation",
+            "Bangla Writing"
+        ],
+        "gender": "Male",
+        "numberOfStudents": 573
+
+    }
+]
