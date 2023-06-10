@@ -5,7 +5,9 @@ import PopularItems from "../../../../components/PopularItems/PopularItems";
 import { Link } from "react-router-dom";
 
 
-const PopularInstructors = () => {
+
+
+const PopularClasses = () => {
 
 
     const [instructors, setInstructor] = useState([]);
@@ -57,4 +59,4 @@ const PopularInstructors = () => {
     );
 };
 
-export default PopularInstructors;
+export default PopularClasses;
