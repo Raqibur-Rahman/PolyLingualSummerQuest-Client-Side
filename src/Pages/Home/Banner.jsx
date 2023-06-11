@@ -2,7 +2,7 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
-import banner1 from '../../assets/images/slider1.png'
+import banner1 from '../../assets/images/image1.jpg'
 import banner2 from '../../assets/images/slider2.png'
 import banner3 from '../../assets/images/slider3.png'
 
