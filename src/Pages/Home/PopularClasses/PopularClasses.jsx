@@ -1,62 +1,46 @@
-import { useEffect } from "react";
-import SectionTitle from "../../../../components/SectionTitle/SectionTitle";
-import { useState } from "react";
-import PopularItems from "../../../../components/PopularItems/PopularItems";
-import { Link } from "react-router-dom";
-
-
-
+import { useEffect, useState } from "react";
+import SectionTitle from "../../../components/SectionTitle/SectionTitle";
+import PopularClassesCard from "./PopularClassesCard";
 
 const PopularClasses = () => {
+  const [classNames, setClassNames] = useState([]);
 
+  useEffect(() => {
+    fetch("../../../../public/instructors.json")
+      .then((res) => res.json())
+      .then((data) => {
+        const sortedClasses = data.sort(
+          (a, b) =>
+            b.classNames[0].numberOfStudents - a.classNames[0].numberOfStudents
+        );
+        const topClassNames = sortedClasses
+          .slice(0, 6)
+          .map((instructor) => ({
+            name: instructor.classNames[0].name,
+            numberOfStudents: instructor.classNames[0].numberOfStudents,
+          }));
+        setClassNames(topClassNames);
+      })
+      .catch((error) => console.log(error));
+  }, []);
 
-    const [instructors, setInstructor] = useState([]);
-    useEffect(() => {
-        fetch('./../../../../../public/instructors.json')
-            .then(res => res.json())
-            .then(data => {
-                // const popularInstructors = data.filter(item => item.numClasses > 5);
-                const sortedInstructor = data.sort((a, b) => b.numberOfStudents - a.numberOfStudents);
-                const topInstructors = sortedInstructor.slice(0, 6);
-                setInstructor(topInstructors);
-            })
-    }, [])
-
-
-
-    return (
-        <div className="rounded m-3">
-            <section>
-                <SectionTitle
-                    heading={"Meet Our Esteemed Instructors"}
-                    subHeading={'Guiding You Towards Success'}
-                ></SectionTitle>
-
-                <p className="">Discover Our Top-Rated Instructors! Experience Their Passion and Expertise as They Guide You Towards Success. Join Us Today and Unleash Your Full Potential!</p>
-
-                <div className="grid md:grid-cols-3 gap-4">
-                    {
-                        instructors.map(item => <PopularItems
-                            key={item.id}
-                            item={item}
-
-                        ></PopularItems>)
-                    }
-
-                </div>
-
-
-
-
-            </section>
-            <div className="card-actions flex justify-center p-3">
-                <Link >
-                    <button className="btn btn-primary">View All Instructors</button>
-                </Link>
-            </div>
-
-        </div>
-    );
+  return (
+    <div>
+      <SectionTitle
+        heading={"Explore our Popular Classes"}
+        subHeading={"Expand Your Knowledge and Skills"}
+      ></SectionTitle>
+      <div className="grid md:grid-cols-3 gap-4">
+        {classNames.map((classItem, index) => (
+          <PopularClassesCard
+            key={index}
+            name={classItem.name}
+            numberOfStudents={classItem.numberOfStudents}
+          />
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default PopularClasses;

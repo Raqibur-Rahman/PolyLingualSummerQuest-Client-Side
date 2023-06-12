@@ -1,27 +1,5 @@
 [
     {
-        "id": 1,
-        "image": "https://cdn-icons-png.flaticon.com/512/219/219964.png?w=740&t=st=1686277316~exp=1686277916~hmac=73bfb28b8a70af470f75426a0f7d91dc1dc8d2cdb44cc96bebcd9b1414c869e2",
-        "name": "Khalid Ahmed",
-        "email": "khalid.ahmed@example.com",
-        "classNames": [
-            {
-                "name": "Arabic Grammar",
-                "numberOfStudents": 200
-            },
-            {
-                "name": "Arabic Conversation",
-                "numberOfStudents": 250
-            },
-            {
-                "name": "Arabic Literature",
-                "numberOfStudents": 125
-            }
-        ],
-        "gender": "Male",
-        "numberOfStudents": 575
-    },
-    {
         "id": 2,
         "image": "https://i.ibb.co/wcNG3df/img2.png",
         "name": "Masud Khan",
@@ -41,7 +19,7 @@
             }
         ],
         "gender": "Male",
-        "numberOfStudents": 475
+        "totalNumberOfStudents": 47
     },
     {
         "id": 3,
@@ -63,7 +41,7 @@
             }
         ],
         "gender": "Male",
-        "numberOfStudents": 375
+        "totalNumberOfStudents": 375
     },
     {
         "id": 4,
@@ -94,12 +72,21 @@
         "email": "alexander.muller@example.com",
         "numClasses": 6,
         "classNames": [
-            "German for Beginners",
-            "Advanced German",
-            "German Culture"
+            {
+                "name": "German for Beginners",
+                "numberOfStudents": 50
+            },
+            {
+                "name": "Intermediate German",
+                "numberOfStudents": 30
+            },
+            {
+                "name": "German Culture",
+                "numberOfStudents": 15
+            }
         ],
         "gender": "Male",
-        "numberOfStudents": 175
+        "totalNumberOfStudents": 95
     },
     {
         "id": 7,
@@ -108,12 +95,21 @@
         "email": "luis.martinez@example.com",
         "numClasses": 7,
         "classNames": [
-            "Spanish for Beginners",
-            "Intermediate Spanish",
-            "Spanish Culture"
+            {
+                "name": "Spanish for Beginners",
+                "numberOfStudents": 50
+            },
+            {
+                "name": "Intermediate Spanish",
+                "numberOfStudents": 30
+            },
+            {
+                "name": "Spanish Culture",
+                "numberOfStudents": 15
+            }
         ],
         "gender": "Male",
-        "numberOfStudents": 95
+        "totalNumberOfStudents": 95
     },
     {
         "id": 7,
@@ -135,7 +131,7 @@
             }
         ],
         "gender": "Male",
-        "numberOfStudents": 95
+        "totalNumberOfStudents": 95
     },
     {
         "id": 7,
@@ -157,7 +153,7 @@
             }
         ],
         "gender": "Male",
-        "numberOfStudents": 95
+        "totalNumberOfStudents": 95
     },
     {
         "id": 10,
@@ -179,7 +175,7 @@
             }
         ],
         "gender": "Male",
-        "numberOfStudents": 356
+        "totalNumberOfStudents": 356
     },
     {
         "id": 11,
@@ -201,6 +197,6 @@
             }
         ],
         "gender": "Male",
-        "numberOfStudents": 775
+        "totalNumberOfStudents": 775
     }
 ]
