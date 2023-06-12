@@ -3,44 +3,47 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import PopularClassesCard from "./PopularClassesCard";
 
 const PopularClasses = () => {
-  const [classNames, setClassNames] = useState([]);
+    const [classNames, setClassNames] = useState([]);
 
-  useEffect(() => {
-    fetch("../../../../public/instructors.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const sortedClasses = data.sort(
-          (a, b) =>
-            b.classNames[0].numberOfStudents - a.classNames[0].numberOfStudents
-        );
-        const topClassNames = sortedClasses
-          .slice(0, 6)
-          .map((instructor) => ({
-            name: instructor.classNames[0].name,
-            numberOfStudents: instructor.classNames[0].numberOfStudents,
-          }));
-        setClassNames(topClassNames);
-      })
-      .catch((error) => console.log(error));
-  }, []);
+    useEffect(() => {
+        fetch("../../../../public/instructors.json")
+            .then((res) => res.json())
+            .then((data) => {
+                const sortedClasses = data.sort(
+                    (a, b) =>
+                        b.classNames[0].numberOfStudents - a.classNames[0].numberOfStudents
+                );
+                const topClassNames = sortedClasses
+                    .slice(0, 6)
+                    .map((instructor) => ({
+                        name: instructor.classNames[0].name,
+                        numberOfStudents: instructor.classNames[0].numberOfStudents,
+                        languageImg: instructor.languageImg,
+                    }));
+                setClassNames(topClassNames);
+            })
+            .catch((error) => console.log(error));
+    }, []);
 
-  return (
-    <div>
-      <SectionTitle
-        heading={"Explore our Popular Classes"}
-        subHeading={"Expand Your Knowledge and Skills"}
-      ></SectionTitle>
-      <div className="grid md:grid-cols-3 gap-4">
-        {classNames.map((classItem, index) => (
-          <PopularClassesCard
-            key={index}
-            name={classItem.name}
-            numberOfStudents={classItem.numberOfStudents}
-          />
-        ))}
-      </div>
-    </div>
-  );
+    return (
+        <div>
+            <SectionTitle
+                heading={"Explore our Popular Classes"}
+                subHeading={"Expand Your Knowledge and Skills"}
+            />
+            <p className="text-center font-medium">Explore the boundless horizons of learning through our extensive range of thought-provoking and meticulously crafted courses, meticulously designed to ignite your passion, challenge your limits, and empower you to reach new heights of excellence.</p>
+            <div className="grid md:grid-cols-3 gap-4">
+                {classNames.map((classItem, index) => (
+                    <PopularClassesCard
+                        key={index}
+                        name={classItem.name}
+                        numberOfStudents={classItem.numberOfStudents}
+                        languageImg={classItem.languageImg}
+                    />
+                ))}
+            </div>
+        </div>
+    );
 };
 
 export default PopularClasses;

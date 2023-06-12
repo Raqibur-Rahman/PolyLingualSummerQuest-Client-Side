@@ -30,7 +30,7 @@ const PopularInstructors = () => {
                     subHeading={'Guiding You Towards Success'}
                 ></SectionTitle>
 
-                <p className="">Discover Our Top-Rated Instructors! Experience Their Passion and Expertise as They Guide You Towards Success. Join Us Today and Unleash Your Full Potential!</p>
+                <p className="text-center font-medium">Embark on an extraordinary learning adventure with our exceptional team of top-rated instructors, whose unwavering dedication and commitment to excellence will inspire and motivate you to push beyond your limits. Through their unparalleled passion and expertise, they will guide you every step of the way, unlocking your full potential and propelling you towards unprecedented achievements.</p>
 
                 <div className="grid md:grid-cols-3 gap-4">
                     {
