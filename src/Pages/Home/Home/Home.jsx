@@ -14,10 +14,8 @@ const Home = () => {
                 <link rel="canonical" href="https://www.tacobell.com/" />
             </Helmet>
             <Banner></Banner>
-
             <PopularClasses></PopularClasses>
             <PopularInstructors></PopularInstructors>
-
             <Featured></Featured>
             <ReviewSwipper></ReviewSwipper>
         </div>

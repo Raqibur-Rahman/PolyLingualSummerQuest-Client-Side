@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import PopularClassesCard from "./PopularClassesCard";
+import { Link } from "react-router-dom";
 
 const PopularClasses = () => {
     const [classNames, setClassNames] = useState([]);
@@ -41,6 +42,11 @@ const PopularClasses = () => {
                         languageImg={classItem.languageImg}
                     />
                 ))}
+            </div>
+            <div className="card-actions flex justify-center p-3">
+                <Link to='/allclasses' >
+                    <button className="btn btn-primary">View All Classes</button>
+                </Link>
             </div>
         </div>
     );

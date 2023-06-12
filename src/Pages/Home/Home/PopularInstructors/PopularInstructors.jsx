@@ -43,12 +43,9 @@ const PopularInstructors = () => {
 
                 </div>
 
-
-
-
             </section>
             <div className="card-actions flex justify-center p-3">
-                <Link >
+                <Link to='/allinstructors' >
                     <button className="btn btn-primary">View All Instructors</button>
                 </Link>
             </div>

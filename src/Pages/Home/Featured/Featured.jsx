@@ -13,14 +13,14 @@ const Featured = () => {
             >
             </SectionTitle>
 
-            <div className="md:flex justify-center items-center py-8 px-16 pb-20 pt-12">
+            <div className="md:flex justify-center items-center py-8 px-16 pb-20 pt-0 border m-3 rounded-lg space-x-4 p-3 bg-orange-50 border-amber-500 mt-0 pt-0">
                 <div >
                     <div>
                         <img src={featuredImage} alt="" />
                     </div>
                 </div>
 
-                <div className="md:ml-10">
+                <div className="md:ml-10 ">
                     <p className="font-bold text-3xl p-3  pb-0">Master English Speaking Course</p>
                     <p className="font-semibold text-xl p-3 pt-0">Unlock Your Fluency and Confidence in English</p>
                     <p className="p-3 pt-0">
