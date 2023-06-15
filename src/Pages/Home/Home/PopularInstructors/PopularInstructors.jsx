@@ -10,7 +10,7 @@ const PopularInstructors = () => {
 
     const [instructors, setInstructor] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/instructors')
+        fetch('https://poly-lingual-server.vercel.app/instructors')
             .then(res => res.json())
             .then(data => {
                 // const popularInstructors = data.filter(item => item.numClasses > 5);

@@ -10,7 +10,7 @@ const AllClasses = () => {
     const [classNames, setClassNames] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5000/instructors")
+        fetch("https://poly-lingual-server.vercel.app/instructors")
             .then((res) => res.json())
             .then((data) => {
                 const sortedClasses = data.sort(
