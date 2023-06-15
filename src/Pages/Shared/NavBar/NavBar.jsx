@@ -1,9 +1,9 @@
+// Import the necessary dependencies
 import { Link } from 'react-router-dom';
 import { useContext, useState } from 'react';
-import { AuthContext } from 'path/to/AuthProvider';
 import { getAuth, signOut } from 'firebase/auth';
-import app from 'path/to/firebase/config';
-import logo from 'path/to/logo.png';
+import { AuthContext } from '../../../providers/AuthProvider';
+import { app } from '../../../firebase/firebase.config';
 
 const Navbar = () => {
     const { user } = useContext(AuthContext);
@@ -64,10 +64,13 @@ const Navbar = () => {
 
                     <Link to="/" className="lg:text-3xl font-bold lg:m-1 lg:p-1">
                         <div className="flex items-center">
-                            <div>
-                                <img src={logo} alt="" />
+                            <div className='text-center'>
+                                <Link >
+                                    <small > PolyLingual</small> <br />
+                                    <small className='text-xl'> Summer Quest</small>
+
+                                </Link>
                             </div>
-                            <div>IntellectoToys</div>
                         </div>
                     </Link>
                 </div>
