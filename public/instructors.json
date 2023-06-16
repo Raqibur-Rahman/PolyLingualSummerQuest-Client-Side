@@ -8,17 +8,20 @@
             {
                 "name": "Urdu Language",
                 "numberOfStudents": 300,
-                "availableSeats": 200
+                "availableSeats": 200,
+                "fee": 50
             },
             {
                 "name": "Urdu Poetry",
                 "numberOfStudents": 100,
-                "availableSeats": 50
+                "availableSeats": 50,
+                "fee": 75
             },
             {
                 "name": "Urdu Calligraphy",
                 "numberOfStudents": 75,
-                "availableSeats": 25
+                "availableSeats": 25,
+                "fee": 100
             }
         ],
         "languageImg": "https://img.freepik.com/premium-vector/welcome-urdu-written-beautiful-nastaliq-calligraphy_878915-4.jpg?w=740",
@@ -34,17 +37,20 @@
             {
                 "name": "Hindi for Beginners",
                 "numberOfStudents": 200,
-                "availableSeats": 100
+                "availableSeats": 100,
+                "fee": 60
             },
             {
                 "name": "Intermediate Hindi",
                 "numberOfStudents": 100,
-                "availableSeats": 50
+                "availableSeats": 50,
+                "fee": 80
             },
             {
                 "name": "Hindi Literature",
                 "numberOfStudents": 75,
-                "availableSeats": 25
+                "availableSeats": 25,
+                "fee": 120
             }
         ],
         "languageImg": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/136553595/original/75368f27202689274702703cf65f216fdce12e83/do-professional-hindi-calligraphy-of-your-name-or-anything-you-want-i-can.jpg",
@@ -60,17 +66,20 @@
             {
                 "name": "English Grammar",
                 "numberOfStudents": 300,
-                "availableSeats": 200
+                "availableSeats": 200,
+                "fee": 70
             },
             {
                 "name": "Conversation Skills",
                 "numberOfStudents": 100,
-                "availableSeats": 50
+                "availableSeats": 50,
+                "fee": 90
             },
             {
                 "name": "Writing Workshop",
                 "numberOfStudents": 75,
-                "availableSeats": 25
+                "availableSeats": 25,
+                "fee": 110
             }
         ],
         "languageImg": "https://img.freepik.com/free-photo/top-view-english-books-assortment_52683-86029.jpg?w=360&t=st=1686551084~exp=1686551684~hmac=9e5d2042d51d1df211eb46d36b3efa8cd3949940b8638885b7841fb00c9b01db",
@@ -87,17 +96,20 @@
             {
                 "name": "German for Beginners",
                 "numberOfStudents": 50,
-                "availableSeats": 40
+                "availableSeats": 40,
+                "fee": 90
             },
             {
                 "name": "Intermediate German",
                 "numberOfStudents": 30,
-                "availableSeats": 20
+                "availableSeats": 20,
+                "fee": 110
             },
             {
                 "name": "German Culture",
                 "numberOfStudents": 15,
-                "availableSeats": 10
+                "availableSeats": 10,
+                "fee": 130
             }
         ],
         "languageImg": "https://asapkerala.gov.in/wp-content/uploads/2021/10/German.jpg",
@@ -114,17 +126,20 @@
             {
                 "name": "Spanish for Beginners",
                 "numberOfStudents": 50,
-                "availableSeats": 40
+                "availableSeats": 40,
+                "fee": 80
             },
             {
                 "name": "Intermediate Spanish",
                 "numberOfStudents": 30,
-                "availableSeats": 20
+                "availableSeats": 20,
+                "fee": 100
             },
             {
                 "name": "Spanish Culture",
                 "numberOfStudents": 15,
-                "availableSeats": 10
+                "availableSeats": 10,
+                "fee": 120
             }
         ],
         "languageImg": "https://www.grittyspanish.com/wp-content/uploads/2019/03/Great-tools-to-learn-Spanish-today.jpg",
@@ -140,17 +155,20 @@
             {
                 "name": "Spanish for Beginners",
                 "numberOfStudents": 50,
-                "availableSeats": 40
+                "availableSeats": 40,
+                "fee": 80
             },
             {
                 "name": "Intermediate Spanish",
                 "numberOfStudents": 30,
-                "availableSeats": 20
+                "availableSeats": 20,
+                "fee": 100
             },
             {
                 "name": "Spanish Culture",
                 "numberOfStudents": 15,
-                "availableSeats": 10
+                "availableSeats": 10,
+                "fee": 120
             }
         ],
         "languageImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgXGJKRhWR76muxfOp8l4PNfZ1yCjtGWcQOeuXIig0lAGT2R7v3jvEuMsiRrPOU6jidyk&usqp=CAU",
@@ -166,17 +184,20 @@
             {
                 "name": "Spanish for Beginners",
                 "numberOfStudents": 50,
-                "availableSeats": 40
+                "availableSeats": 40,
+                "fee": 80
             },
             {
                 "name": "Intermediate Spanish",
                 "numberOfStudents": 30,
-                "availableSeats": 20
+                "availableSeats": 20,
+                "fee": 100
             },
             {
                 "name": "Spanish Culture",
                 "numberOfStudents": 15,
-                "availableSeats": 10
+                "availableSeats": 10,
+                "fee": 120
             }
         ],
         "languageImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZbHXiE_yjdVt0Rf58jgVehMk-FWK2YNq4TP935UL6cJEuys9-7RPDXHGBJMNBcubd8e0&usqp=CAU",
@@ -192,17 +213,20 @@
             {
                 "name": "Urdu Conversation",
                 "numberOfStudents": 150,
-                "availableSeats": 100
+                "availableSeats": 100,
+                "fee": 70
             },
             {
                 "name": "Urdu Poetry Writing",
                 "numberOfStudents": 100,
-                "availableSeats": 50
+                "availableSeats": 50,
+                "fee": 90
             },
             {
                 "name": "Urdu Prose",
                 "numberOfStudents": 106,
-                "availableSeats": 44
+                "availableSeats": 44,
+                "fee": 80
             }
         ],
         "languageImg": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1d599523086923.5631d0981c127.jpg",
@@ -217,18 +241,21 @@
         "classNames": [
             {
                 "name": "Arabic Calligraphy",
-                "numberOfStudents": 250,
-                "availableSeats": 150
+                "numberOfStudents": 271,
+                "availableSeats": 150,
+                "fee": 120
             },
             {
                 "name": "Arabic Literature",
                 "numberOfStudents": 300,
-                "availableSeats": 200
+                "availableSeats": 200,
+                "fee": 140
             },
             {
                 "name": "Advanced Arabic",
                 "numberOfStudents": 225,
-                "availableSeats": 75
+                "availableSeats": 75,
+                "fee": 160
             }
         ],
         "languageImg": "https://cdn.dribbble.com/users/1187872/screenshots/16373995/media/6820322c39ec1d9b04890bcacc55a4ac.jpg?compress=1&resize=400x300&vertical=center",
