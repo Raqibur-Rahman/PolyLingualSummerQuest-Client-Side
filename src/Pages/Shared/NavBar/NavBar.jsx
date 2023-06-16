@@ -4,8 +4,10 @@ import { getAuth, signOut } from 'firebase/auth';
 import { AuthContext } from '../../../providers/AuthProvider';
 import { app } from '../../../firebase/firebase.config';
 import { BsFillCartCheckFill } from 'react-icons/bs';
+import useCart from '../../../components/hooks/useCart';
 
 const Navbar = () => {
+  const [cart] = useCart();
   const { user } = useContext(AuthContext);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -23,7 +25,7 @@ const Navbar = () => {
         <Link>
           <button className='btn gap-2'>
             <BsFillCartCheckFill />
-            <div className="badge badge-secondary"> +0</div>
+            <div className="badge badge-secondary"> +{cart?.length || 0}</div>
           </button>
         </Link>
       </li>
