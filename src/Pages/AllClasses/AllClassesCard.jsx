@@ -15,7 +15,7 @@ const AllClassesCard = ({ item }) => {
         console.log(item);
         if (user && user.email) {
             const cartItem = {itemId: name,languageImg , fee , email:user.email}
-            fetch("http://localhost:5000/carts",{
+            fetch("https://poly-lingual-server.vercel.app/carts",{
                 method:'POST',
                 headers:{
                     'content-type': 'application/json'
