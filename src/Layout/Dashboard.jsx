@@ -19,7 +19,7 @@ const Dashboard = () => {
                 <ul className="menu p-4 w-80 h-full bg-amber-300 text-base-content">
                     {/* Sidebar content here */}
                     <li>
-                        <NavLink to="/">
+                        <NavLink to="/dashboard">
                             <BiHomeAlt /> User Home
                         </NavLink>
                     </li>
