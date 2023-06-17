@@ -38,17 +38,33 @@ const SignUp = () => {
         }
 
         const form = event.target;
-        // const name = form.name.value;
+        const name = form.name.value;
         const email = form.email.value;
         const image = form.image.PhotoURL;
 
         createUser(email, password, image)
             .then((result) => {
-                const user = result.user;
-                console.log(user);
-                setSuccess("User has been created.");
-                navigate(from, { replace: true });
-                navigate("/login");
+
+                const saveUser = { name: name, email: email }
+                fetch('https://poly-lingual-server.vercel.app/users', {
+                    method: 'POST',
+                    headers: {
+                        'content-type': 'application/json'
+                    },
+                    body: JSON.stringify(saveUser)
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.insertedId) {
+                            const user = result.user;
+                            console.log(user);
+                            setSuccess("User has been created.");
+                            navigate(from, { replace: true });
+                            navigate("/login");
+                        }
+                    })
+
+
             })
             .catch((error) => {
                 console.log(error);
