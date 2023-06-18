@@ -11,7 +11,7 @@ import { MdClass, MdCastForEducation, MdPayment, MdOutlineHistory } from 'react-
 const Dashboard = () => {
 
     // const [cart] =useCart;
-    const isAdmin = true;
+    const isAdmin = false;
     //todo:admin banate hobe real
     return (
         <div className="drawer lg:drawer-open bg-blue-100 font-bold">
